@@ -6,8 +6,14 @@
       text-transform: uppercase; }
 
 /* Carousel Slider Option  */
+
+  .carousel-items{
+    height: 450px !important
+  }
+
 .carousel-item {
-  height: 450px; }
+  height: 100px; }
+
 
 .carousel-img-1 {
   background: url("../img/image1.jpeg");

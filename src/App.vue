@@ -5,11 +5,12 @@
         <a href="index.html" class="navbar-brand">Glozzom</a>
         <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNab">
           <!-- <spam class="navbar-toggler-icon"></spam> -->
+          <span><i class="fa fa-bars" aria-hidden="true" style="font-size: 24px; color: #fff"></i></span>
         </button>
         <div id="navbarNab" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Home</router-link>
+              <router-link class="nav-link" exact to="/">Home</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/about">About Us</router-link>

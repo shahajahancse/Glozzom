@@ -3,6 +3,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
 Glozzom
+dist
 
 
 # Editor directories and files
