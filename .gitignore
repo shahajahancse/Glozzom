@@ -3,9 +3,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
 Glozzom
-dist/
-index.html
-src/
+
 
 # Editor directories and files
 .idea
