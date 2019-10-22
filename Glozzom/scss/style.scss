@@ -1,0 +1,178 @@
+
+$icon-size: 50px;
+$dark-overlay: rgba(0,0,0,0.7);
+
+.navbar{
+  background: #000000;
+
+  .nav-item{
+    padding-left: 1em;
+
+    .nav-link{
+      text-transform: uppercase;
+    }
+  }
+}
+
+/* Carousel Slider Option  */
+
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-img-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+
+/* Home Icon Option Here */
+
+#homeicon{
+  .fa{
+    font-size: $icon-size;
+  }
+}
+
+  /*-- Home - Get Started --*/
+
+#getstarted{
+  position: relative;
+  background: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+
+  .dark-overlay{
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+  }
+}
+
+/* Home Video Here */
+
+#home-video{
+  position: relative;
+  background: url(../img/people.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+
+  .dark-overlay{
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    .fa{
+      font-size: $icon-size;
+      color: #ff0000;
+    }
+  }
+}
+
+/*   Photo  gallery  here   */
+
+#gallery{
+  img{
+    min-height: 250px
+  }
+}
+
+
+/* copy right here */
+
+#copyright{
+  background: #000000;
+}
+
+/*  End Index.html   */
+/*   Started About Page here  */
+
+#page-header{
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+/*  We What We Do Section  */
+
+#about-info{
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Icon Boxes here  */
+
+#icon-boxes{
+  .fa{
+    font-size: $icon-size;
+  }
+}
+
+/*  Testimonial  section here  */
+
+#testimonial{
+  .slick-prev::before,
+  .slick-next::before {
+    color: #000;
+  }
+}
+
+
+/*  End about.html   */
+/*   Started service Page here  */
+
+
+#service-page-header{
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+/* Media Query Option  */
+
+
+@media(max-width: 767px){
+  .nav-item{
+    padding-left: 0 !important;
+  }
+
+  #getstarted{
+    min-height: 300px;
+  }
+}
+
+/* Carousel Slider Media Option  */
+
+@media(max-width:480px){
+  .carousel{
+    h2{
+      font-size: 2.5rem;
+    }
+  }
+
+  #getstarted{
+    min-height: 400px;
+  }
+
+}
